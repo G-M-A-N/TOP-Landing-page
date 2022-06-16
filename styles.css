@@ -1,23 +1,32 @@
 body{
     height: 100vh;
-    margin: 0px;
+    margin: 5px;
+    font-size: 25px;
+  
+    
 }
 
 .header{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    background-color:#4C5958;
+    background-color:#32A89C;
+    font-size: 38px;
 }
 a {
 text-decoration: none;
+justify-content: center;
+color: white;
+
+}
+.placeholder{
+height: 350px;
 
 }
 li {
 list-style-type: none;
-align-items: center;
-
-
+align-items: flex-start;
+gap: 16px;
+font-size: 32px;
 }
 
 ul {
@@ -26,22 +35,57 @@ margin: 3%;
 
 }
 .section-1{
-background-color: #4C5958;
+background-color: #009688;
 display: flex;
 justify-content: space-around;
 padding: 6%;
+margin-bottom:2% ;
 
 }
 .logo{
-    font-size: 20px;
+    font-size: 40px;
 color: white;
 }
 .h1-and-text{
 color: white;
-width: 300px;
+width: 400px;
 
 }
 .sign-up-btn{
+background-color: deepskyblue;
+font-size: 25px;
+padding:4px 15px;
+border-radius:10%;
+
+
+}
+
+.image{ 
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    max-width: 400px;
+    margin: 1%;
+    justify-content: center;
+}
+
+.text{
+    height: 150px;
+    width: 400px;
+}
+.container{
+    display: flex;
+    /* Height:500px; */
+    justify-content: space-between;
+    gap: 42px;
+   
+    
+}
+h2{
+    text-align: center;
+    margin: 30px;
+}
+img{
 
 
 }
