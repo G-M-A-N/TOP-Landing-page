@@ -16,10 +16,23 @@ body{
 a {
 text-decoration: none;
 justify-content: center;
-color: white;
+color: #e1dd7f;
 font-size: 17px;
 white-space: nowrap;
+/* padding: 5px; */
+margin: 5px;
+border: rgb(138, 165, 42) solid 1px;
 
+text-transform: none;
+letter-spacing: 2px;
+overflow: hidden;
+transition: 0.2s;
+
+}
+a:hover{
+color: #255784;
+background: #2196f3;
+box-shadow: 0 0 10px #2196f3  0 0 40px #2196f3 0 0 80px #2196f3;
 
 }
 .placeholder{
@@ -31,12 +44,13 @@ list-style-type: none;
 align-items: flex-start;
 gap: 26px;
 font-size: 32px;
+;
 }
 
 ul {
 display: flex;
 margin: 10%;
-padding: 5%;
+/* padding: 5%; */
 
 }
 .section-1{
@@ -60,7 +74,7 @@ width: 400px;
 .sign-up-btn{
 background-color: deepskyblue;
 font-size: 25px;
-padding:4px 15px;
+/* padding:4px 15px; */
 border-radius:10%;
 
 
