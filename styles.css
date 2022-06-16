@@ -1,5 +1,5 @@
 body{
-    height: 100vh;
+    /* height: 100vh; */
     /* margin: 5px; */
     font-size: 18px;
     font-family: Arial,"Helvetica Neue",Helvetica,sans-serif; 
@@ -117,22 +117,26 @@ h2{
 }
 .nested-container{
     display: flex;
-    height: 400px;
-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    color: white;
+    font-size: larger;
 }
 .box{
     display: flex;
-    border: #009688 solid 3px;
+    width:60%;
+    height:20%;
     background-color: #0477BF;
-    width: auto;
-    justify-content: space-between;
+    justify-content: space-around;
 }
+.call-to-action{
+margin: 20px;
+padding: 5%;
+}
+
 .footer{
     background-color: #BFBFBF;
     text-align: center;
-    padding: 5px;
-}
-.sign-up-btn2{
-    background-color: #0477BF;
-
+    padding: 20px;
 }
