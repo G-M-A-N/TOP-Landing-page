@@ -17,6 +17,9 @@ a {
 text-decoration: none;
 justify-content: center;
 color: white;
+font-size: 17px;
+white-space: nowrap;
+
 
 }
 .placeholder{
@@ -26,13 +29,14 @@ height: 350px;
 li {
 list-style-type: none;
 align-items: flex-start;
-gap: 16px;
+gap: 26px;
 font-size: 32px;
 }
 
 ul {
 display: flex;
-margin: 3%;
+margin: 10%;
+padding: 5%;
 
 }
 .section-1{
@@ -125,14 +129,15 @@ h2{
 }
 .box{
     display: flex;
-    width:60%;
-    height:20%;
+    width: 40%;
+    height:30%;
     background-color: #0477BF;
     justify-content: space-around;
+    border-radius: 7%;
 }
 .call-to-action{
 margin: 20px;
-padding: 5%;
+
 }
 
 .footer{
