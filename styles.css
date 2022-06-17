@@ -1,6 +1,7 @@
 body{
-    /* height: 100vh; */
-    /* margin: 5px; */
+    height: 100%;
+    width: 100%; 
+    margin: 5px;
     font-size: 18px;
     font-family: Arial,"Helvetica Neue",Helvetica,sans-serif; 
   
@@ -11,22 +12,24 @@ body{
     display: flex;
     justify-content: space-around;
     background-color:#32A89C;
-    font-size: 38px;
+    
+
 }
 a {
 text-decoration: none;
 justify-content: center;
+align-items: center;
 color: #e1dd7f;
-font-size: 17px;
+font-size: 30px;
 white-space: nowrap;
-/* padding: 5px; */
+padding: 3px;
 margin: 5px;
-border: rgb(138, 165, 42) solid 1px;
+
 
 text-transform: none;
 letter-spacing: 2px;
 overflow: hidden;
-transition: 0.2s;
+transition: 0.1s;
 
 }
 a:hover{
@@ -43,14 +46,15 @@ li {
 list-style-type: none;
 align-items: flex-start;
 gap: 26px;
-font-size: 32px;
+font-size: 18px;
+color: #E5E7EB
 ;
 }
 
 ul {
 display: flex;
 margin: 10%;
-/* padding: 5%; */
+padding: 5%;
 
 }
 .section-1{
@@ -62,9 +66,15 @@ margin-bottom:2% ;
 
 }
 .logo{
-    font-size: 40px;
-color: white;
-align-items: center;
+font-size: 24px;
+color: #f9faf8;
+align-self: center;
+
+}
+h1{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
 }
 .h1-and-text{
 color: white;
@@ -72,10 +82,11 @@ width: 400px;
 
 }
 .sign-up-btn{
-background-color: deepskyblue;
+background-color: #3882F6;
 font-size: 25px;
-/* padding:4px 15px; */
+/* padding:15px 4px; */
 border-radius:10%;
+margin: 0 auto;
 
 
 }
@@ -107,7 +118,9 @@ border-radius:10%;
 h2{
     text-align: center;
     margin: 30px;
-    font-size: 30px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 .quotes{
     display: flex;
@@ -118,7 +131,7 @@ h2{
     align-items: center;
     padding: 100px 310px; 
     width: auto;
-    background-color: #BFBFBF;
+    background-color: #E5E7EB;
     
    
 
@@ -127,6 +140,11 @@ h2{
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: light italic;
+
+
 
 }
 .name-attribute{
@@ -143,11 +161,11 @@ h2{
 }
 .box{
     display: flex;
-    width: 40%;
+    width: 50%;
     height:30%;
     background-color: #0477BF;
     justify-content: space-around;
-    border-radius: 7%;
+    border-radius: 2%;
 }
 .call-to-action{
 margin: 20px;
