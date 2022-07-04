@@ -84,7 +84,7 @@ width: 400px;
 .sign-up-btn{
 background-color: #3882F6;
 font-size: 25px;
-/* padding:15px 4px; */
+padding:0px;
 border-radius:10%;
 margin: 0 auto;
 
@@ -162,10 +162,13 @@ h2{
 .box{
     display: flex;
     width: 50%;
-    height:30%;
+    height: 30%;
+    gap: 0px;
     background-color: #0477BF;
     justify-content: space-around;
     border-radius: 2%;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .call-to-action{
 margin: 20px;
